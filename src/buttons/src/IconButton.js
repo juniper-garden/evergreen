@@ -33,6 +33,7 @@ const IconButton = memo(
           icon={icon}
           color={intent === 'none' ? 'default' : 'currentColor'}
           size={iconSize || relativeIconSize}
+          tabIndex={-1}
         />
       </Button>
     )
